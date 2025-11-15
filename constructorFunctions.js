@@ -51,7 +51,7 @@ function Course(courseName, instructor, creditHours, assignments) {
     We pass this array in so we can reuse the constructor to build 
     any Course with any number of assignments. */
 
-    this.assignments = assignemnts;
+    this.assignments = assignments;
 }
 
 /*  The courseInfo method is added to the Course prototype so that all
